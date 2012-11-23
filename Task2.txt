@@ -1,0 +1,17 @@
+Task 2:
+
+Assumptions:
+1. The webserver has been configured correctly to direct the URL specify below to getinfo.php.
+2. The Mysql Server has been configured and running.
+
+Suggestion
+1- Use CSS for the html file
+2- Use link tag to define CSS file to html
+3- Decorate result data with table tags to present data more neat and interactive in php file
+4- Use JsonSerializable interface to provide better representation of result data in property class
+5- Remove those tag and div that we are not using like facebook xml and div in html file
+6- Define HDB and Condo class more comprehensive, use them in property class rather than use function
+7- Handle close sql connection
+8- Encapsulate class property with make them private and use getter and setters
+9- Enhance error handling especially for retrieving data from DB
+10- Try to validate the entry of of request for handling sercurity issues
